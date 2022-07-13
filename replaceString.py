@@ -1,0 +1,5 @@
+inputStr = input('Please provide input string\n')
+delimiter = input('Please provide delimiter\n')
+delimiter_new = input('Please provide new delimiter\n')
+newStr = inputStr.replace(delimiter, delimiter_new)
+print('Replaced Data =', newStr)
