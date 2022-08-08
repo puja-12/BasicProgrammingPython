@@ -4,8 +4,6 @@ import random
 def flipCoin():
     heads = 0
     tails = 0
-    headspercent = 0
-    tailspercent = 0
 
     for i in range(1000):
         coin = random.randint(1, 2)

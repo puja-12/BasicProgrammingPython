@@ -9,4 +9,4 @@ def Distance(x, y):
 if __name__ == "__main__":
     x = 4
     y = 3
-    print(Distance(x, y))
+    print(Distance)

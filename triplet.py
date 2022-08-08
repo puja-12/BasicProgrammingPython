@@ -10,12 +10,12 @@ def findTriplets(arr, n):
                     print(arr[i], arr[j], arr[k])
                     found = True
 
-    if found == False:
+    if not found:
         print(" not exist ")
 
 
 # Driver code
-if __name__=="__main__":
+if __name__ == "__main__":
     arr = [0, -1, 2, -3, 1]
     n = len(arr)
     findTriplets(arr, n)
